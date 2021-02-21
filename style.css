@@ -691,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -902,7 +902,15 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
+.text-center
+{
+    font-size:14px ;
+}
+.paragraph1
+{
+    font-size:16px ;
 
+}
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
