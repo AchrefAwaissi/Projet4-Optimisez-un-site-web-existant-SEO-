@@ -364,11 +364,10 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
 @media (min-width: 768px) {
     .list1
     {
-        margin-right: 11px;
+        margin-right: 455px;
         list-style-type: none;
     }
     .list2
@@ -549,6 +548,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    display: flex;
+    justify-content:center;
 }
 
 a[data-lightbox]:hover::before {
